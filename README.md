@@ -1,5 +1,5 @@
 ## Background
-The Application Under Test (AUT) is a simplified version of the game of chess. This application uses a Model-View-Controller architecture, and we were required to test the Controller of this application.
+The Application Under Test (AUT) is a simplified version of the game of chess. This application uses a Model-View-Controller architecture, and we were required to test the Controller of this application. Complete description of the project is in the 'Pawn Game.pdf' file.
 
 ## Procedure
 This application is tested using mocking. For this, GoogleTest was used (specifically the gMock library) to create mock classes for Model and View, and use them to create a test for the controller. This test simulates  full game of this chess and checks if mentioned expectations for the mock methods are met. Such expectations include how many times the method is called, when it is called and whether it returns the right value.
