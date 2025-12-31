@@ -1,0 +1,52 @@
+stages:
+   - compile
+   - test
+   - active_testing
+
+test-compile:
+   stage: compile
+   script:
+      - make tests      
+   artifacts:
+      paths:
+         - testChess
+         - testChess_error1
+         - testChess_error2
+         - testChess_error3
+
+test-run:
+   stage: test
+   script:
+      - testChess
+
+test-error1:
+   stage: test
+   script:
+      - testChess_error1
+   allow_failure: true
+
+test-error2:
+   stage: test
+   script:
+      - testChess_error2
+   allow_failure: true
+
+test-error3:
+   stage: test
+   script:
+      - testChess_error3
+   allow_failure: true
+
+memory-leaks:
+   stage: active_testing
+   script:
+      - make memcheck
+   allow_failure: true
+
+coverage:
+   stage: active_testing
+   script:
+      - make coverage
+   artifacts:
+     paths:
+        - coverage
