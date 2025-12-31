@@ -1,0 +1,65 @@
+commit 7a43b19dec3a8833561605cbb67e2e24cd8c17a6
+Author: mita3720 <aditya.mittal@uleth.ca>
+Date:   Wed Oct 15 11:30:58 2025 -0600
+
+    Document and organize code
+
+commit c0455006c1add1018f1a64c68b912d8da8f5fd88
+Author: mita3720 <aditya.mittal@uleth.ca>
+Date:   Wed Oct 15 08:06:50 2025 -0600
+
+    Add expectations for exception handling
+
+commit 6322d94e6f66619737c648da056ff41f928b34a0
+Author: mita3720 <aditya.mittal@uleth.ca>
+Date:   Tue Oct 14 11:34:05 2025 -0600
+
+    Fix makefile tests-compile error as per Professor Anvik's instructions
+
+commit 9c686d97c81bd21d402e24b3faad04c07b4f9a80
+Author: mita3720 <aditya.mittal@uleth.ca>
+Date:   Tue Oct 14 03:45:47 2025 -0600
+
+    Remove temporary comments and improve code look
+
+commit bcf00c233e6ffe1be57053afdb95d85fbc6509ed
+Author: mita3720 <aditya.mittal@uleth.ca>
+Date:   Tue Oct 14 03:06:09 2025 -0600
+
+    Fix majority of unsatisfied and active function call errors in test
+
+commit 421aa97357dfa52a8afd5640584a3d9d3e7ad522
+Author: mita3720 <aditya.mittal@uleth.ca>
+Date:   Mon Oct 13 21:20:50 2025 -0600
+
+    Add InSequence to test
+
+commit 359ec8b386e41d3be0488a0e455efbe7b73e221e
+Author: mita3720 <aditya.mittal@uleth.ca>
+Date:   Mon Oct 13 20:39:34 2025 -0600
+
+    Finish implementing full test
+
+commit 31a0bd70c2ba19322e7a3ea4bf3fb61ed931fb53
+Author: mita3720 <aditya.mittal@uleth.ca>
+Date:   Mon Oct 13 20:00:00 2025 -0600
+
+    Try to simulate a full game of the chess with all black pieces captured (winner and gameover not implemented)
+
+commit 73c0c9b262e47c2a7a57932ab7729771190ae542
+Author: mita3720 <aditya.mittal@uleth.ca>
+Date:   Mon Oct 13 19:47:51 2025 -0600
+
+    Add expectations to chess test to learn mocking till the 1st pawn move
+
+commit e0d632d3bbbed3fd7a2edd03fdf2cad755b31b34
+Author: anvik <john.anvik@uleth.ca>
+Date:   Sun Oct 5 13:21:58 2025 -0600
+
+    Replace Pawn Game.pdf
+
+commit fbd590b2e763d6e7946597f1c11c33e9a4a70390
+Author: anvik <john.anvik@uleth.ca>
+Date:   Sun Oct 5 13:06:45 2025 -0600
+
+    Assignment files
